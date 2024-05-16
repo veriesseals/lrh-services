@@ -13,7 +13,7 @@
 
 /* Top Navigation */
 /* --------------------------------------------------------- */
-.topnav {
+.top-nav {
     display: flex;
     padding: 60px 0px 60px 0px;
     margin: 0px 300px 0px 300px;
@@ -21,13 +21,34 @@
     justify-content: space-between;
 }
 
-.topnav li a {
+.top-nav li a {
     color: whitesmoke;
 }
 
-#nav-bar {
+#navbar {
     background-color: black;
 }
+
+/* Main Page */
+/* --------------------------------------------------------- */
+.main-img {
+    background-color: black;
+    position: relative;
+    padding-top: 29%;
+}
+
+.responsive {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* Mobile Media Querys */
 /* --------------------------------------------------------- */
