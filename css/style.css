@@ -4,8 +4,30 @@
 
 /* Google Fonts */
 /* --------------------------------------------------------- */
-.roboto-light-italic {
+.roboto-thin {
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
+    font-weight: 100;
+    font-style: normal;
 }
+
+
+/* Top Navigation */
+/* --------------------------------------------------------- */
+.topnav {
+    display: flex;
+    padding: 60px 0px 60px 0px;
+    margin: 0px 300px 0px 300px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.topnav li a {
+    color: whitesmoke;
+}
+
+#nav-bar {
+    background-color: black;
+}
+
+/* Mobile Media Querys */
+/* --------------------------------------------------------- */
