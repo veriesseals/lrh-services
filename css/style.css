@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px dotted red;
-}
+} */
 
 /* Google Fonts */
 /* --------------------------------------------------------- */
@@ -35,11 +35,24 @@
     background-color: black;
 }
 
+/* Header Title */
+/* ------------------------------------------------------- */
+.header-Title {
+    text-align: center;
+}
+
+.h2-Titles {
+    color: rgb(29, 138, 138);
+}
+
+.header-2 {
+    text-align: center;
+}
+
 /* Main Page */
 /* --------------------------------------------------------- */
 .main-img {
     background-color: black;
-
 }
 
 /* Center Main Image */
@@ -62,6 +75,25 @@
 #cardGroup {
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+/* Paragraph */
+/* --------------------------------------------------------- */
+
+.info-Paragraph {
+    padding: 0% 10% 0% 10%;
+    text-indent: 5%;
+}
+
+/* Lead Info Graphic */
+/* --------------------------------------------------------- */
+#leadInfoGraphic {
+    width: 20%;
+    display: block;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+    border-radius: 25px 25px 25px 25px;
+
 }
 
 /* Footer */
