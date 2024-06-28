@@ -26,13 +26,32 @@
     justify-content: space-between;
 }
 
+#titleDiv{
+    margin-top: -1%;
+}
+
+#navTitle{
+    color: whitesmoke;
+}
+
 .top-nav li a {
     color: whitesmoke;
 }
 
 #navBar {
     background-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+
+#navBar  ul li a {
+    color: whitesmoke;
+    background-color: black;
+}
+
+/* .dropdown-menu  li a {
+    color: black;
+} */
 
 /* Header Title */
 /* ------------------------------------------------------- */
@@ -87,6 +106,15 @@
     padding-top: 2%;
     padding-bottom: 2%;
 }
+
+#cardText1 {
+    padding-bottom: 45%;
+}
+
+#cardText2 {
+    padding-bottom: 27%;
+}
+
 
 /* Paragraph */
 /* --------------------------------------------------------- */

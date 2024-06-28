@@ -22,10 +22,10 @@
     <div class="row">
         <div class="wrapper container-fluid">
             <!-- Navigation with Resposive WD and Hambuger Menu-->
-            <div id="navBar">
+            <div id="titleDiv">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
-                        <a class="navbar-brand roboto-regular" href="#">Welcome to L.R.H Services LLC</a>
+                    <div class="container-fluid" id="navBar">
+                        <a class="navbar-brand roboto-regular" href="#" id="navTitle">Welcome to L.R.H Services LLC</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
@@ -37,13 +37,8 @@
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="/about.html">Who We Are</a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Our Sevices
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="/services.html">Services</a></li>
-                                    </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="/services.html">Services</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#">Testimonials</a>
@@ -57,10 +52,36 @@
                 </nav>
             </div>
             <!-- End of Navigation -->
+             <hr>
+            <!-- Under Construction -->
+             <h1><center>LRH Page Under Construction</center></h1>
+
             <!-- Main Page Image -->
-            <div class="main-img container-fluid">
+            <!-- <div class="main-img container-fluid">
                 <img src="/img/LRH_main_placeholder.png" id="mainImg" width="500" alt="logo">
-            </div>
+            </div> -->
+            <hr>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/img/LRH_main_placeholder_0.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/LRH_main_placeholder_1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/img/LRH_main_placeholder_2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
 
         <hr id="horizontalTop">
@@ -72,7 +93,7 @@
                 <div class="card" style="width: 18rem;">
                     <img src="/img/lead_pile.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text" id="cardText1">Lead is hazardous to our health. Due to health concerns, in 1973, the federal government began to phase out lead in gasoline and eliminated it by 1996. The United States government banned manufacture of lead-based house paint in 1978. In 1986, the government restricted the lead content of solders, faucets, pipes, and similar materials.</p>
                     </div>
                 </div>
             </div>
@@ -80,9 +101,9 @@
             <div class="col">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img src="/img/5_things_about_drinking_water.png" class="card-img-top" alt="...">
+                        <img src="/img/5_things_about_drinking_water.png" class="card-img-top" id="cardImgTop2" alt="...">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text" id="cardText2">According to the EPA, the most common sources of lead contamination in tap water are old lead pipes, faucets, fixtures and solder. Additionally, old lead service lines (LSL) that connect houses to water mains can also cause unsafe levels of lead. If the local water supply has a high acidity level or low mineral content, these old plumbing materials can corrode, resulting in lead entering a home’s tap water.</p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +114,7 @@
                     <div class="card" style="width: 18rem;">
                         <img src="/img/toxic_effects_of_lead.png" class="card-img-top" alt="Lead Effects Image">
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text" id="cardText3">Paint in older houses and buildings. Lead-based paint is the most common source of lead in older homes and buildings. It is most dangerous on surfaces subject to high wear and tear, such as windowsills, doors, door frames, stairs, railings, banisters, and porches. Houses built before 1977 are 24 percent more likely to contain lead paint, and those built before 1940 are 87 percent more likely to contain it. Keep surfaces clean and free of lead dust, and always use a lead-safe certified contractor for any renovations.</p>
                         </div>
                     </div>
                 </div>
