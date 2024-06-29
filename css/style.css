@@ -49,6 +49,12 @@
     background-color: black;
 }
 
+/* Navbar Hamburger Button */
+/* ------------------------------------------------------- */
+.navbar-toggler {
+    background-color: whitesmoke;
+}
+
 /* .dropdown-menu  li a {
     color: black;
 } */
